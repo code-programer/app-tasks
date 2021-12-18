@@ -19,7 +19,42 @@
         <button onclick="AgileBoard('.container').create();">Recuperar el Tablero anterior</button>
 
         <div class="container"></div>
+        <style>
+          * { 
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
 
+header {
+    background: #333;
+    color: #fff;
+    font-size: 1rem;
+    margin: 0;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+}
+
+header h2 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-variant: small-caps;
+}
+
+button{
+    background: #003366;
+    border: 1px solid rgba(0,0,0,0.2);
+    color: #ffff;
+    padding: 5px;
+    margin: 5px auto;
+    width: 180px;
+    display: block;
+}
+      </style>
         <script type="text/javascript" src="./agileBoard.js"></script>
         <script type="text/javascript">
             var data = {
